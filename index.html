@@ -1,0 +1,705 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forum - Home</title>
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="https://travelineurope.pro/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://travelineurope.pro/css/styles.css">
+        <script>const BASE_URL = "https://travelineurope.pro";</script>
+        <script src="https://travelineurope.pro/js/search.js" defer></script>
+        <script src="https://travelineurope.pro/js/auth.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a href="https://travelineurope.pro/" class="logo">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> Community Forum
+                </a>
+                
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Search the forum..." autocomplete="off" class="search-input">
+                    <button class="search-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 14z"/></svg></button>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+
+                <nav class="header-nav">
+                    <a href="/" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> <span class="hidden-mobile">Home</span></a>
+                    <button onclick="openLogin()" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg> <span class="hidden-mobile">Login</span></button>
+                    <button onclick="openRegister()" class="btn-primary"><svg class="icon" viewBox="0 0 24 24"><path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Register</button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="layout-container">
+            <main class="main-content">
+                
+    <h2 class="page-title">Latest Discussions</h2>
+    <div class="post-list">
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (2).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Рим</span><span class="tag">путешествия</span><span class="tag">Италия</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/nebanalnye-mesta-v-rime-kuda-skhodit-chtoby-ne-stoiat-v-ocherediakh.html">Небанальные места в Риме: куда сходить, чтобы не стоять в очередях?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Собираюсь в Рим в третий раз и уже порядком подустал от бесконечных толп у Колизея и фонтана Треви. Хочется увидеть настоящий, живой город, где гуляют сами римляне, а не только туристы с селфи-палками. Может, кто-то знает уютные скрытые дворики, необычные смотровые площадки или атмосферные районы, куда не доходят путеводители? Буду очень благодарен за любые рекомендации, особенно если это места с аутентичной кухней или интересной архитектурой.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Alex_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 11.04.2025 21:18</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (17).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">еда</span><span class="tag">отдых</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/gde-v-evrope-seichas-biudzhetno-i-vkusno-poest-s-pivom.html">Где в Европе сейчас бюджетно и вкусно поесть с пивом?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую небольшой отпуск по Европе на следующей неделе, хочется совместить приятное с полезным - найти страну, где можно недорого посидеть в барах. Интересует не только цена на пиво, но и чтобы кухня была достойная, а не просто фастфуд. Слышал, что в Чехии цены подросли, а в Германии вообще все дорого. Может кто недавно был в Польше, Венгрии или может стоит посмотреть на Балканы? Буду благодарен за любые рекомендации по конкретным городам или местам.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Yulia_Z</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.03.2025 03:55</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (20).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Барселона</span><span class="tag">путешествия</span><span class="tag">Испания</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/barselona-za-48-chasov-chto-realno-uspet.html">Барселона за 48 часов: что реально успеть?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Летим в Барселону на короткие выходные, времени в обрез - всего два полных дня. Хочется увидеть самое важное, но при этом не превращать поездку в бесконечную гонку по туристическим точкам. Подскажите, на чем лучше сфокусироваться: стоит ли пытаться попасть внутрь Саграда Фамилия или лучше просто прогуляться по Готическому кварталу? Буду очень благодарен за советы по логистике, чтобы не провести всё время в очередях.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Vlad_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 10.03.2025 18:05</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (25).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">аэропорт</span><span class="tag">ночевка</span><span class="tag">путешествия</span><span class="tag">совет</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/nochevka-v-aeroportu-realno-li-spat-na-kreslakh.html">Ночевка в аэропорту: реально ли спать на креслах?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Друзья, столкнулся с неприятной ситуацией. Мой рейс отменили, и до утра следующего вылета мне придется провести ночь в аэропорту Франкфурта. Никогда раньше такого не было, и я понятия не имею, как там лучше обустроиться. Подскажите, пожалуйста, есть ли в аэропортах Европы специальные зоны для отдыха или можно просто найти свободные кресла и переночевать? Стоит ли брать с собой спальник или плед, или это лишнее? Буду благодарен за любые советы и лайфхаки!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Yulia_Z</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 07.03.2025 14:26</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (16).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Исландия</span><span class="tag">путешествия</span><span class="tag">бюджет</span><span class="tag">автопутешествие</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/islandiia-na-mashine-kakoi-biudzhet-zakladyvat-na-dvoikh.html">Исландия на машине: какой бюджет закладывать на двоих?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Давно мечтаем с мужем проехать по кольцевой дороге Исландии на арендованном авто с палаткой. Понимаем, что страна недешевая, но хотелось бы понять реальные цифры без лишнего пафоса и отелей по 300 евро за ночь. Сколько сейчас примерно уходит на аренду кемпера, топливо и продукты в магазинах на неделю-полторы? Буду очень благодарна, если кто-то поделится своим опытом поездки в формате «дикаря» и подскажет, на чем можно сэкономить, а на чем лучше не стоит.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Mark_Pro</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 05.03.2025 13:12</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (27).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Мюнхен</span><span class="tag">транспорт</span><span class="tag">Германия</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/kak-biudzhetno-dobratsia-iz-aeroporta-miunkhena-v-tsentr.html">Как бюджетно добраться из аэропорта Мюнхена в центр?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Скоро лечу в Мюнхен впервые, и возник вопрос по логистике из аэропорта. Подскажите, пожалуйста, какой способ самый выгодный и при этом не слишком долгий, чтобы доехать до главного вокзала? Слышал про электрички S-Bahn, но не уверен, какой билет лучше покупать, чтобы не переплатить. Может, есть какие-то лайфхаки или выгодные проездные на день, если планирую еще немного поездить по городу?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Vlad_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 28.02.2025 23:59</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (11).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">авиаперелеты</span><span class="tag">путешествия</span><span class="tag">компенсация</span><span class="tag">права пассажиров</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/zaderzhali-reis-v-evrope-kak-vybit-kompensatsiiu-u-aviakompanii.html">Задержали рейс в Европе: как выбить компенсацию у авиакомпании?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Ребята, подскажите, кто сталкивался с задержкой рейса в ЕС? Летели из Берлина в Москву с пересадкой, в итоге из-за поломки самолета опоздали на стыковочный рейс и прилетели в пункт назначения с задержкой более 6 часов. Авиакомпания кормит завтраками и присылает стандартные отписки, хотя по регламенту 261/2004 вроде как положена выплата. Стоит ли пробовать писать претензию самому или лучше сразу обращаться в сервисы-посредники типа AirHelp? Буду благодарен за реальные советы и проверенные шаблоны писем.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Dan_22</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 27.02.2025 20:11</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (27).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">футбол</span><span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">билеты</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/kak-samostoiatelno-kupit-bilety-na-futbol-v-apl-ili-la-lige.html">Как самостоятельно купить билеты на футбол в АПЛ или Ла Лиге?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую поездку в Европу и очень хочу попасть на матч топового клуба, но совершенно не понимаю, как это сделать без перекупщиков. На официальных сайтах часто требуют членство клуба, которое стоит немалых денег, а на сторонних ресурсах цены кажутся подозрительно высокими. Есть ли какие-то проверенные способы купить билеты обычному туристу «с улицы» или лучше даже не пытаться? Буду очень благодарен за советы, особенно если кто-то уже имел успешный опыт покупки билетов на матчи команд вроде Арсенала или Барселоны.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Chris_Tech</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 27.02.2025 18:47</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (24).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Октоберфест</span><span class="tag">Германия</span><span class="tag">путешествия</span><span class="tag">трезвость</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/stoit-li-ekhat-na-oktoberfest-esli-sovsem-ne-pesh-alkogol.html">Стоит ли ехать на Октоберфест, если совсем не пьешь алкоголь?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Собираемся с друзьями в Мюнхен в сентябре, они все очень хотят попасть на Октоберфест. Проблема в том, что я вообще не употребляю алкоголь, а пиво не люблю даже по вкусу. Есть ли там вообще смысл находиться, или это будет скучно и неуютно среди бесконечных кружек? Интересует, какая там атмосфера, можно ли найти чем заняться, кроме поглощения литров пенного, и не буду ли я там выглядеть белой вороной.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Julia_2001</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 27.02.2025 15:38</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (16).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">советы</span><span class="tag">отпуск</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/pervaia-poezdka-v-evropu-pomogite-sostavit-marshrut-na-14-dnei.html">Первая поездка в Европу: помогите составить маршрут на 14 дней</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Мы с мужем впервые собираемся в Европу, планируем отпуск на две недели. Очень хочется увидеть побольше, но боимся переборщить с переездами и провести всё время в поездах. Думаем про классику вроде Италии или Франции, но голова идет кругом от количества вариантов. Подскажите, пожалуйста, какой маршрут будет оптимальным для новичков, чтобы не сильно устать, но получить яркие впечатления? Будем очень благодарны за любые советы по городам и логистике!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Mila_Styl</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 26.02.2025 17:40</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (26).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">девичник</span><span class="tag">отдых</span><span class="tag">европа</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/posovetuite-gorod-v-evrope-dlia-devichnika-na-vykhodnye.html">Посоветуйте город в Европе для девичника на выходные</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Девочки, планируем с подругами выбраться на девичник в Европу, но никак не можем определиться с направлением. Хочется, чтобы было красиво, вкусно, ну и конечно, чтобы была какая-то ночная жизнь, где можно потанцевать. Пока смотрим в сторону Будапешта или Праги, но, может, посоветуете что-то более небанальное? Бюджет средний, летим на три дня, поэтому желательно, чтобы город не был слишком огромным. Буду рада любым идеям и проверенным местам!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Kam_S</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 26.02.2025 03:48</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 14 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (1).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Греция</span><span class="tag">отдых</span><span class="tag">путешествия</span><span class="tag">пляжи</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/realno-li-naiti-uedinennye-pliazhi-v-gretsii-v-razgar-sezona.html">Реально ли найти уединенные пляжи в Греции в разгар сезона?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планируем поездку в Грецию на август, но очень боимся столкнуться с толпами отдыхающих, как на Крите или Санторини. Хочется найти такие места, где можно спокойно поплавать и не сидеть плечом к плечу с соседями по шезлонгу. Может быть, кто-то знает менее раскрученные острова или скрытые бухты, куда не добираются экскурсионные автобусы? Буду признателен за любые рекомендации по локациям, желательно с возможностью добраться на арендованном авто или пешком.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Art_B</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.02.2025 06:50</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (14).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Испания</span><span class="tag">аренда авто</span><span class="tag">путешествия</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/arenda-avto-v-ispanii-kakoi-prokatchik-nadezhnee-i-kak-ne-vletet-s-depozitom.html">Аренда авто в Испании: какой прокатчик надежнее и как не влететь с депозитом?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планируем отпуск в Испании и сейчас занимаемся поиском машины на прокат. Смотрю цены на агрегаторах, но пугают отзывы про скрытые платежи и огромные заморозки депозита на карте. Подскажите, стоит ли доплачивать за полную страховку без франшизы прямо при бронировании или лучше разбираться на месте? Может, есть проверенные местные конторы, которые не требуют кредитку и не блокируют ползарплаты в залог? Буду благодарен за любые советы, чтобы не испортить себе отдых лишними нервами.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Carol_S</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.02.2025 22:18</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (26).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">маршрут</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/realno-li-uspet-praga-vena-budapesht-za-nedeliu.html">Реально ли успеть Прага-Вена-Будапешт за неделю?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую свой первый самостоятельный евротур и составил маршрут: два дня в Праге, два в Вене и три в Будапеште. Очень боюсь, что получится сплошная беготня и я ничего толком не увижу, кроме вокзалов и отелей. Подскажите, стоит ли сократить список городов до двух или семь дней - это вполне адекватный срок для такого трио? Буду благодарен за советы по логистике между этими городами, чтобы не терять лишнее время.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Silvia_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.02.2025 10:15</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (25).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">автобусный тур</span><span class="tag">Европа</span><span class="tag">советы</span><span class="tag">путешествие</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/chto-vziat-s-soboi-v-dolgii-avtobusnyi-tur-po-evrope.html">Что взять с собой в долгий автобусный тур по Европе?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую большое путешествие на автобусе по Европе, маршрут очень длинный, около 2 недель. Хотелось бы узнать у тех, кто уже ездил в подобные туры, что самое важное и необходимое стоит взять с собой, чтобы поездка была максимально комфортной. Есть ли какие-то лайфхаки или вещи, о которых я могу не догадываться? Особенно интересуют моменты, связанные с питанием, личной гигиеной и развлечениями в дороге. Заранее спасибо за любые советы!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Daria_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 11.02.2025 21:58</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">рождество</span><span class="tag">отпуск</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/vena-praga-ili-strasburg-kuda-luchshe-poekhat-na-rozhdestvo.html">Вена, Прага или Страсбург: куда лучше поехать на Рождество?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планируем с женой короткую поездку в Европу на рождественские праздники и никак не можем определиться с городом. Слышали много хорошего про ярмарки в Вене, Праге и Страсбурге, но хочется выбрать что-то одно, чтобы не бегать галопом. Важно, чтобы была красивая иллюминация, вкусная уличная еда и та самая сказочная атмосфера, ради которой стоит лететь. Может быть, кто-то был в этих местах и может посоветовать, где сейчас меньше толп или где программа интереснее? Буду благодарен за любые отзывы и советы по выбору.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Adrian_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 07.02.2025 22:19</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (17).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">финансы</span><span class="tag">отпуск</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/karty-ili-nalichka-s-chem-seichas-udobnee-i-vygodnee-ezdit-po-evrope.html">Карты или наличка: с чем сейчас удобнее и выгоднее ездить по Европе?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Собираюсь в отпуск по Европе и немного запутался в текущих реалиях. Раньше всегда возил с собой карту зарубежного банка и немного евро в кошельке на всякий случай, но сейчас слышу противоречивые отзывы. Кто-то говорит, что почти везде принимают карты, а где-то без наличных евро вообще никуда. Подскажите, сильно ли изменилась ситуация в плане приема карт в кафе и магазинах за последний год? Есть ли смысл сейчас везти с собой много налички, или это лишний риск и неудобство?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Nick_W</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 05.02.2025 21:05</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (19).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">английский язык</span><span class="tag">Европа</span><span class="tag">путешествия</span><span class="tag">общение</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/gde-v-evrope-legche-vsego-obshchatsia-na-angliiskom.html">Где в Европе легче всего общаться на английском?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую поездку по Европе и хочу выбрать маршрут, где с английским проблем не будет. Интересует, в каких странах европейцы лучше всего понимают и говорят на английском языке, особенно вне туристических зон. Может, кто-то делился таким опытом или знает статистику? Хотелось бы не только в крупных городах, но и в небольших городках чувствовать себя уверенно, спрашивая дорогу или заказывая еду. Буду благодарен за любые советы и рекомендации!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Paul_25</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 03.02.2025 12:24</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (23).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">отпуск</span><span class="tag">советы</span><span class="tag">жилье</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/arenda-zhilia-airbnb-protiv-otelei-v-tsentre-goroda.html">Аренда жилья: Airbnb против отелей в центре города</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую поездку на неделю и никак не могу определиться, что будет удобнее для проживания. С одной стороны, квартира на Airbnb кажется более уютной и домашней, да и кухня есть, чтобы не питаться только в кафе. С другой - в отеле всегда есть сервис, уборка и стойка регистрации, что сильно упрощает жизнь, если возникают какие-то вопросы. Подскажите, что вы обычно выбираете для коротких поездок и почему? Поделитесь своим опытом, особенно если есть советы по поиску жилья в центре крупных городов.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Dan_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 31.01.2025 16:15</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (11).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Амстердам</span><span class="tag">транспорт</span><span class="tag">путешествия</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/amsterdam-kakuiu-proezdnuiu-kartu-luchshe-vziat-turistu.html">Амстердам: какую проездную карту лучше взять туристу?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Собираюсь в Амстердам на четыре дня и никак не могу разобраться с системой оплаты транспорта. Посмотрел сайт GVB, там столько вариантов: OV-chipkaart, I Amsterdam City Card или просто платить банковской картой через OVpay? Хочется сэкономить, но при этом не бегать каждый раз в поисках киоска за новым билетом. Подскажите, пожалуйста, какой вариант самый оптимальный, если планируешь много передвигаться на трамваях и автобусах?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> John_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 29.01.2025 13:27</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (6).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Лондон</span><span class="tag">бюджет</span><span class="tag">развлечения</span><span class="tag">бесплатно</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/biudzhetnyi-london-besplatnye-muzei-smotrovye-i-razvlecheniia.html">Бюджетный Лондон: бесплатные музеи, смотровые и развлечения?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Привет всем! Планирую поездку в Лондон на следующей неделе, но бюджет очень ограничен. Хотелось бы максимально насладиться городом, не тратя при этом много денег. Подскажите, пожалуйста, какие есть действительно стоящие бесплатные музеи, где можно полюбоваться панорамой города (желательно не очень туристические места) и какие еще есть варианты бесплатного досуга? Может, есть какие-то парки с интересными видами или уличные представления, которые стоит посетить? Буду очень благодарен за любые советы!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Vic_B</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 29.01.2025 07:46</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (1).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">соло-трип</span><span class="tag">безопасность</span><span class="tag">европа</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/naskolko-bezopasno-devushke-ekhat-v-evropu-odnoi.html">Насколько безопасно девушке ехать в Европу одной?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Давно мечтаю устроить себе соло-путешествие по Европе, планирую посетить Прагу, Вену и Будапешт. С одной стороны, очень хочется свободы и новых впечатлений, но с другой - немного страшно, так как раньше всегда ездила с друзьями или парнем. Подскажите, насколько комфортно и безопасно гулять одной по вечерам в этих городах? Может быть, есть какие-то конкретные районы, которых стоит избегать, или советы, как не привлекать лишнего внимания?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> John_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 26.01.2025 09:14</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">поезда</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/eurail-pass-ili-pokupka-biletov-po-otdelnosti-chto-vygodnee.html">Eurail Pass или покупка билетов по отдельности: что выгоднее?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планирую большое путешествие по Европе на месяц, хочу посетить около пяти разных стран. Сейчас активно смотрю варианты перемещения и не могу определиться: стоит ли брать Eurail Pass или лучше покупать билеты на поезда заранее через сайты перевозчиков? Слышал, что с проездным гораздо больше свободы, но пугают обязательные доплаты за бронирование мест на скоростных поездах. Кто уже пользовался этим пассом в последнее время, подскажите, оправдывает ли он свою стоимость на практике?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Oleg_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 01:31</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (8).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">европа</span><span class="tag">отпуск</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/kuda-podatsia-v-evrope-zimoi-chtoby-ne-zamerznut.html">Куда податься в Европе зимой, чтобы не замерзнуть?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Планируем с женой небольшой отпуск на январь-февраль, хочется сменить обстановку и немного погреться, но бюджет ограничен Европой. Понимаю, что настоящего пляжного сезона там нет, но хочется хотя бы комфортных +15-18 градусов и отсутствия пронизывающего ветра. Смотрим в сторону юга Испании или Сицилии, но боимся попасть в сезон дождей. Может быть, кто-то был в это время на Мальте или Кипре и может поделиться реальными впечатлениями? Буду очень благодарен за советы по локациям, где можно погулять без пуховика.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Tech_Guru</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 23.01.2025 15:07</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">лоукостеры</span><span class="tag">багаж</span><span class="tag">советы путешественникам</span><span class="tag">авиабилеты</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/kak-ne-pereplatit-za-bagazh-u-loukosterov-ryanair-i-wizzair.html">Как не переплатить за багаж у лоукостеров Ryanair и WizzAir?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Собираюсь в отпуск и впервые лечу лоукостерами, но начитался отзывов о том, что на стойке регистрации могут содрать кучу денег за лишний сантиметр или килограмм. Подскажите, как правильно измерить ручную кладь, чтобы не попасть на штраф в аэропорту? Есть ли какие-то хитрости при покупке билета, чтобы багаж вышел дешевле, или лучше сразу брать тариф с включенной сумкой? Буду благодарен за любые советы от опытных путешественников, а то не хочется испортить себе поездку неприятным сюрпризом на гейте.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Silvia_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 23.01.2025 11:14</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (20).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Париж</span><span class="tag">транспорт</span><span class="tag">путешествия</span><span class="tag">бюджет</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/biudzhetnyi-transfer-iz-sharl-de-goll-v-parizh.html">Бюджетный трансфер из Шарль-де-Голль в Париж</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Лечу в Париж первый раз, и бюджет поездки довольно ограничен, поэтому не хочется тратить 60 евро на такси. Подскажите, пожалуйста, какой сейчас самый дешевый способ добраться до центра города? Слышал про электрички RER, но пугают слухи про карманников и сложность покупки билетов. Может быть, лучше ехать на автобусе или есть еще какие-то скрытые лайфхаки для экономии?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Daria_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 23.01.2025 03:04</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (16).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">отдых с детьми</span><span class="tag">путешествия</span><span class="tag">курорты</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/kuda-luchshe-poekhat-s-malyshom-bolgariia-khorvatiia-ili-chernogoriia.html">Куда лучше поехать с малышом: Болгария, Хорватия или Черногория?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Планируем первый большой отпуск с ребенком, которому сейчас полтора года. Выбираем между Болгарией, Хорватией и Черногорией, но никак не можем определиться, где будет комфортнее с коляской и питанием. Важно, чтобы был пологий заход в море и не слишком шумные курорты. Поделитесь, пожалуйста, своим опытом: где инфраструктура больше заточена под маленьких детей? Заранее спасибо за любые советы!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Silvia_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 00:41</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (12).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">путешествия</span><span class="tag">транспорт</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/chto-luchshe-dlia-poezdki-mezhdu-gorodami-flixbus-ili-poezd.html">Что лучше для поездки между городами: FlixBus или поезд?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Ребята, планирую поездку в соседний город и никак не могу определиться с транспортом. С одной стороны, FlixBus подкупает своей ценой и тем, что можно вытянуть ноги, если повезет с местом. С другой стороны, поезд кажется надежнее из-за отсутствия пробок на трассах, но билеты часто стоят ощутимо дороже. Кто часто ездит, подскажите, что сейчас комфортнее по соотношению цена-качество? Поделитесь личным опытом, особенно интересует вопрос задержек и удобства сидений.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Silvia_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 00:44</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (8).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Швейцария</span><span class="tag">эмиграция</span><span class="tag">бюджет</span><span class="tag">жизньзаграницей</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/realnye-sovety-po-ekonomii-v-shveitsarii-zhile-i-produkty.html">Реальные советы по экономии в Швейцарии: жилье и продукты</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Переезжаю в Швейцарию по работе и немного в шоке от цен, которые вижу в интернете. Понимаю, что уровень жизни высокий, но не хочется спускать всю зарплату только на аренду и базовую корзину продуктов. Подскажите, в каких кантонах лучше искать жилье, чтобы не переплачивать, и где реально выгоднее закупаться едой? Может есть какие-то секреты по поиску квартир или приложения с уцененкой в магазинах? Буду благодарен за любые лайфхаки от тех, кто там уже давно живет.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Max_Builder</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 19:12</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://travelineurope.pro/ava/135540 (1).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">автопутешествия</span><span class="tag">кемпинг</span><span class="tag">европа</span><span class="tag">советы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://travelineurope.pro/posts/pervaia-poezdka-na-avtodome-po-evrope-s-chego-nachat-i-gde-iskat-nochleg.html">Первая поездка на автодоме по Европе: с чего начать и где искать ночлег?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Мы с семьей давно мечтаем взять в аренду кемпер и проехать по Европе, но пока совершенно не понимаем, как все организовать правильно. Подскажите, насколько реально найти бесплатные или недорогие стоянки в популярных странах вроде Италии или Франции? Стоит ли бронировать места в кемпингах заранее через приложения или лучше искать на месте по ситуации? Буду очень признателен за советы по выбору самого автодома, чтобы не переплатить за лишние опции и не мучиться с габаритами на узких улочках.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Alex_88</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 16.01.2025 23:00</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 replies</span>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <div class="pagination">
+        
+        
+        <a href="https://travelineurope.pro/" class="page-link active">1</a>
+        
+        
+        <a href="https://travelineurope.pro/page_2.html" class="page-link ">2</a>
+        
+    </div>
+    
+    
+            </main>
+            
+            <aside class="sidebar">
+                <div class="card card-dark">
+                    <h3 class="widget-title">Forum Statistics</h3>
+                    <ul class="stat-list">
+                        <li><span>Topics:</span> <span>60</span></li>
+                        <li><span>Posts:</span> <span>927</span></li>
+                        <li><span>Users:</span> <span>122</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="widget-title">Recently Active</h3>
+                    <ul class="random-links">
+                        
+                        <li><a href="https://travelineurope.pro/posts/rabotaet-li-isic-v-muzeiakh-evropy-v-2024-godu.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Работает ли ISIC в музеях Европы в 2024 году?</a></li>
+                        
+                        <li><a href="https://travelineurope.pro/posts/chto-vziat-s-soboi-v-dolgii-avtobusnyi-tur-po-evrope.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Что взять с собой в долгий автобусный тур по Европе?</a></li>
+                        
+                        <li><a href="https://travelineurope.pro/posts/amsterdam-kakuiu-proezdnuiu-kartu-luchshe-vziat-turistu.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Амстердам: какую проездную карту лучше взять туристу?</a></li>
+                        
+                        <li><a href="https://travelineurope.pro/posts/posovetuite-proverennyi-khostel-v-londone.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Посоветуйте проверенный хостел в Лондоне</a></li>
+                        
+                        <li><a href="https://travelineurope.pro/posts/zaderzhali-reis-v-evrope-kak-vybit-kompensatsiiu-u-aviakompanii.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Задержали рейс в Европе: как выбить компенсацию у авиакомпании?</a></li>
+                        
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h4 class="footer-title"><svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> Forum Hub</h4>
+                    <p class="footer-text">A community for sharing knowledge and experiences. We create a place for cultured discussions on all topics.<br><br>&copy; 2026 All rights reserved.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Forum Rules</h4>
+                    <p class="footer-text">Spam, insults, inappropriate content, and trolling are strictly prohibited. Let's maintain a high level of discussion.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Information</h4>
+                    <p class="footer-text">This site uses cookies for proper functionality.<br><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
